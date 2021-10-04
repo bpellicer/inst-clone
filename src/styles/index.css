@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: #fafafa;
+}
+
 .btn{
     @apply text-white w-full py-1 rounded;
-    background-color: #B2DFFC;
+    background-color: #0095F6;
+}
+form i {
+    margin-left: -40px;
+    font-size: 1.1em;
+    cursor:pointer;
 }
