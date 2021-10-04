@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply text-white w-full py-1 rounded;
+    background-color: #B2DFFC;
+}
